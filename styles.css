@@ -21,17 +21,16 @@ nav{
     justify-content: space-evenly;
 
 }
-
+@keyframes example {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+  }
 .image{
-    transition-duration: 500ms;
-    transition-property: all;
-    transition-timing-function: ease;
+    animation-name: example;
+    animation-duration: 5s;
         
 }
-.image:hover{
-    transform: rotate(45deg);
-        
-}
+
 
 nav ul li{
     display: inline-block;
