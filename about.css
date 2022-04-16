@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Karla", sans-serif;
+
+}
+
+body {
+    background-image: url('./abttt.jpg');
+    background-size: cover;
+    /* max-width: 100%; */
+}
+
+.page {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 992px) {
+    .page {
+        flex-direction: column;
+    }
+}
+
+.content {
+    display: flex;
+    height: 100%;
+    width: 40%;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    /*margin-left: 8%;*/
+    margin-top: 1%;
+    font-weight: 500;
+    font-size: 25px;
+
+}
+
+.content h1 {
+    display: flex;
+    font-family: cursive;
+    font-size: 50px;
+    color: navy;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 8%;
+
+
+}
+
+.heading {
+    display: flex;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.image {
+    display: flex;
+    width: 5%;
+    height: 100%;
+    position: static;
+    bottom: 0;
+    right: 0px;
+
+
+}
+
+.image img {
+    height: 100%;
+    position: relative;
+    /*left: 50%;*/
+    bottom: 0;
+    transform: translate(-20%);
+    transition: bottom 1s, left 1s;
+    transition: ease;
+}
+
+.image:hover {
+    transform: scale(1.2);
+}

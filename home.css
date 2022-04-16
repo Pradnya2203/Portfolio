@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Lobster",sans-serif;
+
+}
+.home{
+    margin-left: 8%;
+    margin-top: 1%;
+
+}
+
+.home h1{
+    font-size: 50px;
+    color:maroon;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.home h2{
+    color:chocolate;
+}
+.contacts{
+    margin-left: 8%;
+    margin-top: 1%;
+
+}
+.contacts a{
+    background:black ;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #eff4fd;
+    display: inline-block;
+    margin: 30px 0px;
+    border-radius: 5px;
+
+}
+.info{
+    margin-left: 8%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    font-weight: 500;
+    color:mediumpurple;
+}
+.head{
+   
+    font-size: 20px;
+}
+body{
+    background-image: url('./abt.webp');
+    background-size: cover;
+}
